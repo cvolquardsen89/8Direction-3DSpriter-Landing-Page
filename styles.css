@@ -609,7 +609,7 @@ section {
 }
 
 .faq-item.active .faq-answer {
-    max-height: 500px;
+    max-height: 1000px;
 }
 
 .faq-answer p {
