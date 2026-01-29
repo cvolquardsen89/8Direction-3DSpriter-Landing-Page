@@ -1,0 +1,5 @@
+{
+    "pinegrow.debug": true,
+    "abacusAgent.autoRunTerminal": true,
+    "abacus.viewKind": "windowed"
+}
