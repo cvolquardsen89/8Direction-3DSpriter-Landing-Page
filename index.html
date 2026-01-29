@@ -66,26 +66,15 @@
             <div class="hero-visual">
                 <div class="visual-card">
                     <div class="visual-3d">
-                        <div class="cube">
-                            <div class="cube-face front"></div>
-                            <div class="cube-face back"></div>
-                            <div class="cube-face right"></div>
-                            <div class="cube-face left"></div>
-                            <div class="cube-face top"></div>
-                            <div class="cube-face bottom"></div>
+                        <div id="model-viewer" class="model-viewer" aria-label="3D model preview">
+                            <div class="model-viewer-message">Loading 3D preview...</div>
                         </div>
                     </div>
                     <div class="arrow-divider">→</div>
                     <div class="visual-2d">
-                        <div class="sprite-grid">
-                            <div class="sprite-cell"></div>
-                            <div class="sprite-cell"></div>
-                            <div class="sprite-cell"></div>
-                            <div class="sprite-cell"></div>
-                            <div class="sprite-cell"></div>
-                            <div class="sprite-cell"></div>
-                            <div class="sprite-cell"></div>
-                            <div class="sprite-cell"></div>
+                        <div id="sprite-viewer" class="sprite-viewer" aria-label="Sprite sheet preview" data-src="assets/uploads/Pistol_Run_2_8directions_spritesheet.png">
+                            <img class="sprite-viewer-image" src="assets/uploads/Pistol_Run_2_8directions_spritesheet.png" alt="Generated sprite sheet preview" draggable="false">
+                            <div class="sprite-viewer-hint">Drag to pan • Scroll to zoom</div>
                         </div>
                     </div>
                 </div>
@@ -479,5 +468,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="sprite-viewer.js"></script>
+    <script type="module" src="viewer-bootstrap.js"></script>
 </body>
 </html>
